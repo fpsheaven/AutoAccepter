@@ -7,7 +7,7 @@ This app interacts purely with your computer and NOT the game :)
 
 ## Installation
 
-Download the installer from [here](https://github.com/fpsheaven/AutoAccepter/blob/main/launcher.bat) and run the bat file only one time.
+Download the installer from [here](https://github.com/fpsheaven/AutoAccepter/blob/main/launcher.bat) and run the bat file AS ADMIN  only one time.
 
 ## Usage
 
