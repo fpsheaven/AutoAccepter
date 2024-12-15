@@ -160,7 +160,7 @@ while True:
                         logging.debug("No green areas detected.")
 
                     # Fallback to template matching if green detection fails
-                    x, y, w, h = template_matching(screen, 'C:\\AutoAccept\\accept.png') 
+                    x, y, w, h = template_matching(screen, 'C:\\AutoAccepter\\accept.png') 
                     if x is not None:
                         logging.info("Clicking on the 'ACCEPT' button based on template matching...")
                         click_center(x, y, w, h)
