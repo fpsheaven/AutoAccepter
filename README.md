@@ -12,7 +12,7 @@ Download the installer from [here](https://github.com/fpsheaven/AutoAccepter/blo
 ## Usage
 
 ```python
-Run the executable from C:\AutoAccept
+Run the executable from C:\AutoAccepter
 
 ```
 Press P to start the recognition.
