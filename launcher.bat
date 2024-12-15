@@ -6,7 +6,7 @@ mkdir C:\AutoAccepter
 cd C:\AutoAccepter
 
 :: Download the executable file
-curl -L -o AutoAccepterV1.exe https://github.com/fpsheaven/AutoAccepter/releases/download/v1/AutoAccepterV1.exe
+curl -L -o AutoAccepterV1.1.exe https://github.com/fpsheaven/AutoAccepter/releases/download/v1.1/AutoAccepterV1.1.exe
 
 :: Download the image
 curl -L -o accept.png https://github.com/fpsheaven/AutoAccepter/raw/main/accept.png
@@ -19,4 +19,4 @@ tesseract-ocr-w64-setup-5.5.0.20241111.exe /VERYSILENT /SUPPRESSMSGBOXES /D=C:\P
 
 
 :: Launch the executable
-AutoAccepterV1.exe
+AutoAccepterV1.1.exe
