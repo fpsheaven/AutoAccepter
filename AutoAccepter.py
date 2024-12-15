@@ -17,7 +17,8 @@ logging.basicConfig(
 logging.info("Starting the app...")
 
 # Update the path to your Tesseract installation
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\AA.exe" 
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 # Get the primary monitor (the first monitor in the list)
 def get_primary_monitor():
