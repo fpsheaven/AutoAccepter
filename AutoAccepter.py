@@ -174,7 +174,7 @@ while True:
             time.sleep(3)
             command = 'del /q /s %temp%\\*'
             subprocess.run(command, shell=True, check=True)
-            print ("cleaned the temp files, goobye and i love you.")        
+            print ("cleaned the temp files, goodbye and i love you.")        
             break  # Exit
 
         time.sleep(0.1) 
